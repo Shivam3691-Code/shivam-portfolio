@@ -12,6 +12,12 @@ npm run dev      # http://localhost:3000
 npm run build && npm start
 ```
 
+## Live site
+https://shivam3691-code.github.io/shivam-portfolio/
+
+To publish changes, run `npm run deploy`: it builds a static export and pushes it to the
+`gh-pages` branch, which GitHub Pages serves.
+
 ## Edit your content
 All copy lives in `lib/data.js`. **Contact links are placeholders**: fill in `CONTACT.email`
 and `CONTACT.links` (`value` + `href`). While `href` is empty, a row shows a "placeholder" tag.

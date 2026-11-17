@@ -15,7 +15,7 @@ export const COLORS = {
   gold: '#E8590C', // red-orange (Pandit AI)
 };
 
-export const FONT_URL = '/fonts/helvetiker_bold.typeface.json';
+export const FONT_URL = `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/fonts/helvetiker_bold.typeface.json`;
 export function useDisplayFont() {
   return useLoader(FontLoader, FONT_URL);
 }
