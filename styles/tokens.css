@@ -1,0 +1,34 @@
+/* ── Design tokens ─────────────────────────────────────────── */
+:root {
+  /* Light theme. "--black" is the paper background, "--white" the ink —
+     names kept so every component re-themes from here. */
+  --black: #f3f1ee;
+  --charcoal: #e8e4de;
+  --blue: #9e0016;
+  --cyan: #e10600;
+  --white: #141417;
+  --gold: #e8590c;
+
+  --text: var(--white);
+  --text-dim: rgba(20, 20, 23, 0.66);
+  --text-faint: rgba(20, 20, 23, 0.42);
+  --line: rgba(20, 20, 23, 0.12);
+  --line-strong: rgba(20, 20, 23, 0.22);
+
+  --glass-bg: linear-gradient(155deg, rgba(255, 255, 255, 0.72), rgba(250, 248, 245, 0.5));
+  --glass-border: rgba(20, 20, 23, 0.08);
+  --glass-blur: 18px;
+
+  --font-display: 'Syne', system-ui, sans-serif;
+  --font-body: 'Manrope', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --gutter: clamp(16px, 4vw, 64px);
+  --maxw: 1480px;
+  --nav-h: 76px;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-io: cubic-bezier(0.76, 0, 0.24, 1);
+
+  color-scheme: light;
+}
